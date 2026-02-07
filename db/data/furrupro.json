@@ -42,6 +42,171 @@
     "height_no_ears": 198,
     "height_with_ears": 208,
     "model": "Alphazear",
+    "description": "Alpha adalah Furru ke 2 dan merupakan bagian dari MSC, Alpha memiliki hubungan spesial Dengan Ava FP010, Apha memiliki bentuk fisik yg mirip denga Deu FP001 hanya lebih buff dan mengintimidasi, selain itu Alpha juga meiliki personality yang samtai dan kasual, tetapi Alpha meiliki gerak gerik yang aga aneh ketika berada di dekat Deu FP001",
+    "variants": [
+      {
+        "title": "Alpha",
+        "profile": "../Furru_asset/FP002/0.png",
+        "gallery": [
+          "../Furru_asset/FP002/1.png",
+          "../Furru_asset/FP002/2.png",
+          "../Furru_asset/FP002/3.png",
+          "../Furru_asset/FP002/4.png"
+        ]
+      },
+      {
+        "title": "Alpha (Legacy Design)",
+        "profile": "../Furru_asset/FP002/5.png",
+        "gallery": [
+          "../Furru_asset/FP002/6.png",
+          "../Furru_asset/FP002/7.png",
+          "../Furru_asset/FP002/8.png",
+          "../Furru_asset/FP002/9.png"
+        ]
+      }
+    ]
+  },
+    "FP003": {
+    "name": "cebol",
+    "sn": "FP003",
+    "reg": "FP00307112025U",
+    "sex": "unknown",
+    "deploy": "27/10/2025",
+    "height_no_ears": 122,
+    "height_with_ears": 130,
+    "model": "Chibigen",
+    "description": "Cebol adalah Furru dengan ukuran tubuh yang kecil dengan tinggi max hanya 130 cm, Cebol memiliki tubuh fisik yang imut secara personality cebol chukup keotik denga ulah randomnya, selain itu cebol juga sering membuat masalah kecil di site, cebol juga aga sulit di ajak bekerja sama.",
+    "variants": [
+      {
+        "title": "cebol",
+        "profile": "../Furru_asset/FP003/0.png",
+        "gallery": [
+          "../Furru_asset/FP003/1.png",
+          "../Furru_asset/FP003/2.png",
+          "../Furru_asset/FP003/3.png",
+          "../Furru_asset/FP003/4.png"
+        ]
+      },
+      {
+        "title": "Cebol (Legacy Design)",
+        "profile": "../Furru_asset/FP003/5.png",
+        "gallery": [
+          "../Furru_asset/FP003/6.png",
+          "../Furru_asset/FP003/7.png",
+          "../Furru_asset/FP003/8.png",
+          "../Furru_asset/FP003/9.png"
+        ]
+      }
+    ]
+  },
+    "FP004": {
+    "name": "Felo",
+    "sn": "FP004",
+    "reg": "FP00413112025M",
+    "sex": "Male",
+    "deploy": "13/11/2025",
+    "height_no_ears": 175,
+    "height_with_ears": 183,
+    "model": "Winterpal Feline",
+    "description": "Felo adalah Furru kembar pertama dengan soudara perempuan Fela FP005, Felo adalah bagian dari MOS dan Felo Juga memiliki hubungan spesial dengan Deu sebagai teman dekat dan Fela sebagai adik, Felo juga memiliki personalitiy yg chill",
+    "variants": [
+      {
+        "title": "Felo",
+        "profile": "../Furru_asset/FP004/0.png",
+        "gallery": [
+          "../Furru_asset/FP004/1.png",
+          "../Furru_asset/FP004/2.png",
+          "../Furru_asset/FP004/3.png",
+          "../Furru_asset/FP004/4.png"
+        ]
+      },
+      {
+        "title": "Felo (Legacy Design)",
+        "profile": "../Furru_asset/FP004/5.png",
+        "gallery": [
+          "../Furru_asset/FP004/6.png",
+          "../Furru_asset/FP004/7.png",
+          "../Furru_asset/FP004/8.png",
+          "../Furru_asset/FP004/9.png"
+        ]
+      }
+    ]
+  },
+    "FP005": {
+    "name": "Fela",
+    "sn": "FP005",
+    "reg": "FP00513112025F",
+    "sex": "Female",
+    "deploy": "13/11/2025",
+    "height_no_ears": 175,
+    "height_with_ears": 183,
+    "model": "Winterpal Feline",
+    "description": "Alpha merupakan unit dengan temperamen dominan dan aura intimidatif. Interaksi dengan unit lain sering memicu respons defensif, termasuk pada Deu FP001.",
+    "variants": [
+      {
+        "title": "Fela",
+        "profile": "../Furru_asset/FP005/0.png",
+        "gallery": [
+          "../Furru_asset/FP005/1.png",
+          "../Furru_asset/FP005/2.png",
+          "../Furru_asset/FP002/3.png",
+          "../Furru_asset/FP002/4.png"
+        ]
+      },
+      {
+        "title": "Fela (Legacy Design)",
+        "profile": "../Furru_asset/FP005/5.png",
+        "gallery": [
+          "../Furru_asset/FP005/6.png",
+          "../Furru_asset/FP005/7.png",
+          "../Furru_asset/FP005/8.png",
+          "../Furru_asset/FP005/9.png"
+        ]
+      }
+    ]
+  },
+    "FP006": {
+    "name": "Alpha",
+    "sn": "FP002",
+    "reg": "FP00227102025M",
+    "sex": "Male",
+    "deploy": "27/10/2025",
+    "height_no_ears": 198,
+    "height_with_ears": 208,
+    "model": "Alphazear",
+    "description": "Alpha merupakan unit dengan temperamen dominan dan aura intimidatif. Interaksi dengan unit lain sering memicu respons defensif, termasuk pada Deu FP001.",
+    "variants": [
+      {
+        "title": "Alpha",
+        "profile": "../Furru_asset/FP002/0.png",
+        "gallery": [
+          "../Furru_asset/FP002/1.png",
+          "../Furru_asset/FP002/2.png",
+          "../Furru_asset/FP002/3.png",
+          "../Furru_asset/FP002/4.png"
+        ]
+      },
+      {
+        "title": "Alpha (Legacy Design)",
+        "profile": "../Furru_asset/FP002/5.png",
+        "gallery": [
+          "../Furru_asset/FP002/6.png",
+          "../Furru_asset/FP002/7.png",
+          "../Furru_asset/FP002/8.png",
+          "../Furru_asset/FP002/9.png"
+        ]
+      }
+    ]
+  },
+    "FP007": {
+    "name": "Alpha",
+    "sn": "FP002",
+    "reg": "FP00227102025M",
+    "sex": "Male",
+    "deploy": "27/10/2025",
+    "height_no_ears": 198,
+    "height_with_ears": 208,
+    "model": "Alphazear",
     "description": "Alpha merupakan unit dengan temperamen dominan dan aura intimidatif. Interaksi dengan unit lain sering memicu respons defensif, termasuk pada Deu FP001.",
     "variants": [
       {
