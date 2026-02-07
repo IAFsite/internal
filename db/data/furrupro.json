@@ -1,0 +1,69 @@
+{
+  "FP001": {
+    "name": "Deu",
+    "sn": "FP001",
+    "reg": "FP00111082025M",
+    "sex": "Male",
+    "deploy": "11/08/2025",
+    "height_no_ears": 193,
+    "height_with_ears": 203,
+    "model": "Deuzear",
+    "description": "Deu adalah Furru pertama yang dibuat, sebagai Furru pertama dia memiliki personality yang paling mendekati █████ █████. Sebagai Furru paling senior, Deu memegang peran penting sebagai head of MOS. Deu memiliki hubungan spesial dengan Felo FP004 dan Fela FP005, serta menunjukkan ketidaknyamanan saat hanya berdua dengan Alpha FP002.",
+    "variants": [
+      {
+        "title": "Deu",
+        "profile": "../Furru_asset/FP001/5.png",
+        "gallery": [
+          "../Furru_asset/FP001/1.png",
+          "../Furru_asset/FP001/2.png",
+          "../Furru_asset/FP001/3.png",
+          "../Furru_asset/FP001/4.png"
+        ]
+      },
+      {
+        "title": "Deu (Legacy Design)",
+        "profile": "../Furru_asset/FP001/5.png",
+        "gallery": [
+          "../Furru_asset/FP001/6.png",
+          "../Furru_asset/FP001/7.png",
+          "../Furru_asset/FP001/8.png",
+          "../Furru_asset/FP001/9.png"
+        ]
+      }
+    ]
+  },
+
+  "FP002": {
+    "name": "Alpha",
+    "sn": "FP002",
+    "reg": "FP00227102025M",
+    "sex": "Male",
+    "deploy": "27/10/2025",
+    "height_no_ears": 198,
+    "height_with_ears": 208,
+    "model": "Alphazear",
+    "description": "Alpha merupakan unit dengan temperamen dominan dan aura intimidatif. Interaksi dengan unit lain sering memicu respons defensif, termasuk pada Deu FP001.",
+    "variants": [
+      {
+        "title": "Alpha",
+        "profile": "../Furru_asset/FP002/5.png",
+        "gallery": [
+          "../Furru_asset/FP002/1.png",
+          "../Furru_asset/FP002/2.png",
+          "../Furru_asset/FP002/3.png",
+          "../Furru_asset/FP002/4.png"
+        ]
+      },
+      {
+        "title": "Alpha",
+        "profile": "../Furru_asset/FP002/5.png",
+        "gallery": [
+          "../Furru_asset/FP002/6.png",
+          "../Furru_asset/FP002/7.png",
+          "../Furru_asset/FP002/8.png",
+          "../Furru_asset/FP002/9.png"
+        ]
+      }
+    ]
+  }
+}

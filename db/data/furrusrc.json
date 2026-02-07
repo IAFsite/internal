@@ -1,0 +1,29 @@
+{
+  "units": [
+    {
+      "id": "FP001",
+      "name": "Deu",
+      "regId": "FP00111082025M",
+      "thumb": "Furru_asset/FP001/5.png",
+      "keywords": [
+        "deu",
+        "fp001",
+        "alpha",
+        "legacy",
+        "first prototype"
+      ]
+    },
+    {
+      "id": "FP002",
+      "name": "Alpha",
+      "regId": "FP00227102025M",
+      "thumb": "Furru_asset/FP002/5.png",
+      "keywords": [
+        "alpha",
+        "fp002",
+        "leader",
+        "command"
+      ]
+    }
+  ]
+}
