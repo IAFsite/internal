@@ -1,0 +1,179 @@
+{
+  "FP001": {
+    "name": "Deu",
+    "sn": "FP001",
+    "reg": "FP00111082025M",
+    "sex": "Male",
+    "deploy": "11/08/2025",
+    "height_no_ears": 193,
+    "height_with_ears": 203,
+    "model": "Deuzear",
+    "description": "Deu adalah Furru pertama yang dibuat, sebagai Furru pertama dia memiliki persoanity yang paling mendekati █████ █████, Deu sebagai Furru paling senior memiliki role terpenting yayitu head of MOS, Deu juga memiliki hubungan spesial dengan Felo FP004 sbebagai teman dekat dan Fela FP005 sebagai partner, selain itu Deu juga terlihat sedikit takut ketika hanya berdua dengan Alpha FP002",
+    "variants": [
+  {
+    "title": "Deu",
+    "asset_path": "../Furru_asset/FP001/",
+    "profile": "0.png",
+    "gallery": ["1.png", "2.png", "3.png", "4.png"]
+  },
+  {
+    "title": "Deu (Legacy Design)",
+    "asset_path": "../Furru_asset/FP001/",
+    "profile": "5.png",
+    "gallery": ["6.png", "7.png", "8.png", "9.png"]
+  }
+]
+  },
+
+  "FP002": {
+    "name": "Alpha",
+    "sn": "FP002",
+    "reg": "FP00227102025M",
+    "sex": "Male",
+    "deploy": "27/10/2025",
+    "height_no_ears": 198,
+    "height_with_ears": 208,
+    "model": "Alphazear",
+    "description": "Alpha adalah Furru ke 2 dan merupakan bagian dari MSC, Alpha memiliki hubungan spesial Dengan Ava FP010, Apha memiliki bentuk fisik yg mirip denga Deu FP001 hanya lebih buff dan mengintimidasi, selain itu Alpha juga meiliki personality yang samtai dan kasual, tetapi Alpha meiliki gerak gerik yang aga aneh ketika berada di dekat Deu FP001",
+    "variants": [
+  {
+    "title": "Alpha",
+    "asset_path": "../Furru_asset/FP002/",
+    "profile": "0.png",
+    "gallery": ["1.png", "2.png", "3.png", "4.png"]
+  },
+  {
+    "title": "Alpha",
+    "asset_path": "../Furru_asset/FP002/",
+    "profile": "5.png",
+    "gallery": ["6.png", "7.png", "8.png", "9.png"]
+  }
+]
+  },
+    "FP003": {
+    "name": "cebol",
+    "sn": "FP003",
+    "reg": "FP00307112025U",
+    "sex": "unknown",
+    "deploy": "27/10/2025",
+    "height_no_ears": 122,
+    "height_with_ears": 130,
+    "model": "Chibigen",
+    "description": "Cebol adalah Furru dengan ukuran tubuh yang kecil dengan tinggi max hanya 130 cm, Cebol memiliki tubuh fisik yang imut secara personality cebol chukup keotik denga ulah randomnya, selain itu cebol juga sering membuat masalah kecil di site, cebol juga aga sulit di ajak bekerja sama.",
+    "variants": [
+  {
+    "title": "Cebol",
+    "asset_path": "../Furru_asset/FP003/",
+    "profile": "0.png",
+    "gallery": ["1.png", "2.png", "3.png", "4.png"]
+  },
+  {
+    "title": "Cebol (Legacy Design)",
+    "asset_path": "../Furru_asset/FP003/",
+    "profile": "5.png",
+    "gallery": ["6.png", "7.png", "8.png", "9.png"]
+  }
+]
+
+  },
+    "FP004": {
+    "name": "Felo",
+    "sn": "FP004",
+    "reg": "FP00413112025M",
+    "sex": "Male",
+    "deploy": "13/11/2025",
+    "height_no_ears": 175,
+    "height_with_ears": 183,
+    "model": "Winterpal Feline",
+    "description": "Felo adalah Furru kembar pertama dengan soudara perempuan Fela FP005, Felo adalah bagian dari MOS dan Felo Juga memiliki hubungan spesial dengan Deu FP001 sebagai teman dekat dan Fela FP005 sebagai kembar, Felo juga memiliki personalitiy yg chill",
+    "variants": [
+  {
+    "title": "Felo",
+    "asset_path": "../Furru_asset/FP004/",
+    "profile": "0.png",
+    "gallery": ["1.png", "2.png", "3.png", "4.png"]
+  },
+  {
+    "title": "Felo (Legacy Design)",
+    "asset_path": "../Furru_asset/FP004/",
+    "profile": "5.png",
+    "gallery": ["6.png", "7.png", "8.png", "9.png"]
+  }
+]
+  },
+    "FP005": {
+    "name": "Fela",
+    "sn": "FP005",
+    "reg": "FP00513112025F",
+    "sex": "Female",
+    "deploy": "13/11/2025",
+    "height_no_ears": 175,
+    "height_with_ears": 183,
+    "model": "Winterpal Feline",
+    "description": "Fela adalah Furru kembar pertama dengan soudara laki laki Felo FP004, Fela adalah bagian dari MOS dan Fela juga memiliki hubungan spesial dengan Felo sebagai kembar dan Deu FP001 sebagai partner, Fela juga memiliki personality yg chill",
+    "variants": [
+  {
+    "title": "Fela",
+    "asset_path": "../Furru_asset/FP005/",
+    "profile": "0.png",
+    "gallery": ["1.png", "2.png", "3.png", "4.png"]
+  },
+  {
+    "title": "Fela (Legacy Design)",
+    "asset_path": "../Furru_asset/FP005/",
+    "profile": "5.png",
+    "gallery": ["6.png", "7.png", "8.png", "9.png"]
+  }
+]
+  },
+    "FP006": {
+    "name": "Nova",
+    "sn": "FP002",
+    "reg": "FP00227102025M",
+    "sex": "Female",
+    "deploy": "27/10/2025",
+    "height_no_ears": 183,
+    "height_with_ears": 203,
+    "model": "Novabeast",
+    "description": "Alpha merupakan unit dengan temperamen dominan dan aura intimidatif. Interaksi dengan unit lain sering memicu respons defensif, termasuk pada Deu FP001.",
+    "variants": [
+  {
+    "title": "Nova",
+    "asset_path": "../Furru_asset/FP006/",
+    "profile": "0.png",
+    "gallery": ["1.png", "2.png", "3.png", "4.png"]
+  },
+  {
+    "title": "Nova (Legacy Design)",
+    "asset_path": "../Furru_asset/FP006/",
+    "profile": "5.png",
+    "gallery": ["6.png", "7.png", "8.png", "9.png"]
+  }
+]
+  },
+    "FP007": {
+    "name": "Nop",
+    "sn": "FP002",
+    "reg": "FP00227102025M",
+    "sex": "Female",
+    "deploy": "27/10/2025",
+    "height_no_ears": 183,
+    "height_with_ears": 193,
+    "model": "Novapup",
+    "description": "Alpha merupakan unit dengan temperamen dominan dan aura intimidatif. Interaksi dengan unit lain sering memicu respons defensif, termasuk pada Deu FP001.",
+    "variants": [
+  {
+    "title": "Nop",
+    "asset_path": "../Furru_asset/FP007/",
+    "profile": "0.png",
+    "gallery": ["1.png", "2.png", "3.png", "4.png"]
+  },
+  {
+    "title": "Nop (Legacy Design)",
+    "asset_path": "../Furru_asset/FP007/",
+    "profile": "5.png",
+    "gallery": ["6.png", "7.png", "8.png", "9.png"]
+  }
+]
+  }
+}
