@@ -8,9 +8,7 @@
       "keywords": [
         "deu",
         "fp001",
-        "alpha",
-        "legacy",
-        "first prototype"
+        "Deuzear"
       ]
     },
     {
@@ -21,8 +19,63 @@
       "keywords": [
         "alpha",
         "fp002",
-        "leader",
-        "command"
+        "alphazear"
+      ]
+      
+    },
+    {
+      "id": "FP003",
+      "name": "Cebol",
+      "regId": "FP00307112025U",
+      "thumb": "Furru_asset/FP003/5.png",
+      "keywords": [
+        "cebol",
+        "fp003",
+        "chibigen"
+      ]
+    },
+    {
+      "id": "FP004",
+      "name": "Felo",
+      "regId": "FP00413112025M",
+      "thumb": "Furru_asset/FP004/5.png",
+      "keywords": [
+        "felo",
+        "fp004",
+        "winterpal feline"
+      ]
+    },
+        {
+      "id": "FP005",
+      "name": "Fela",
+      "regId": "FP00513112025F",
+      "thumb": "Furru_asset/FP005/5.png",
+      "keywords": [
+        "fela",
+        "fp005",
+        "winterpal feline"
+      ]
+    },    
+    {
+      "id": "FP006",
+      "name": "Nova",
+      "regId": "FP00611122025F",
+      "thumb": "Furru_asset/FP006/5.png",
+      "keywords": [
+        "nova",
+        "fp006",
+        "novabeast"
+      ]
+    },
+    {
+      "id": "FP007",
+      "name": "Nop",
+      "regId": "FP00714122025F",
+      "thumb": "Furru_asset/FP007/5.png",
+      "keywords": [
+        "nop",
+        "fp007",
+        "novapup"
       ]
     }
   ]
