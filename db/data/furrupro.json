@@ -46,7 +46,7 @@
     "variants": [
       {
         "title": "Alpha",
-        "profile": "../Furru_asset/FP002/5.png",
+        "profile": "../Furru_asset/FP002/0.png",
         "gallery": [
           "../Furru_asset/FP002/1.png",
           "../Furru_asset/FP002/2.png",
@@ -55,7 +55,7 @@
         ]
       },
       {
-        "title": "Alpha",
+        "title": "Alpha (Legacy Design)",
         "profile": "../Furru_asset/FP002/5.png",
         "gallery": [
           "../Furru_asset/FP002/6.png",
