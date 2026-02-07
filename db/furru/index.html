@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Furru</title>
+<link rel="icon" href="../asset/favicon.ico">
+
+<style>
+/* === CSS LU: GA DIUBAH === */
+body{
+  margin:0;
+  background:#0f0f12;
+  font-family:Arial,Helvetica,sans-serif;
+  color:#fff;
+  padding-top:90px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  overflow-x:hidden;
+}
+.global-ui{
+  position:fixed;
+  top:0; left:0; right:0;
+  height:70px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:0 24px;
+  z-index:1000;
+}
+.menu{ font-size:28px; cursor:pointer; }
+.logo{ width:120px; opacity:.9; }
+
+.sidebar{
+  position:fixed;
+  top:0; left:0;
+  width:260px;
+  height:100vh;
+  background:#14141b;
+  padding:24px;
+  transform:translateX(-100%);
+  transition:.3s;
+  z-index:1500;
+}
+.sidebar.active{ transform:translateX(0); }
+
+.card{
+  width:760px;
+  background:#16161d;
+  border-radius:18px;
+  padding:24px;
+  box-shadow:0 0 35px rgba(0,0,0,.6);
+  margin-bottom:24px;
+}
+.header{ display:flex; gap:20px; align-items:center; }
+.photo{
+  width:160px;
+  height:160px;
+  background:#2a2a35;
+  border-radius:14px;
+  overflow:hidden;
+}
+.photo img{ width:100%; height:100%; object-fit:cover; cursor:pointer; }
+
+.name{ font-size:28px; font-weight:bold; }
+.id-line{ font-size:14px; color:#ccc; }
+
+.details{
+  margin-top:24px;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:12px 24px;
+}
+.label{ font-size:12px; color:#888; }
+
+.description{ margin:28px 0; line-height:1.6; color:#ddd; }
+
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:14px;
+}
+.section-title{
+  grid-column:1/-1;
+  font-size:14px;
+  color:#ccc;
+  font-weight:bold;
+}
+
+.gallery-item img{
+  width:100%;
+  aspect-ratio:1/1;
+  object-fit:cover;
+  border-radius:12px;
+  cursor:pointer;
+}
+
+.modal{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.85);
+  display:none;
+  align-items:center;
+  justify-content:center;
+  z-index:2000;
+}
+.modal.active{ display:flex; }
+.modal img{ max-width:90%; max-height:90%; }
+
+@media(max-width:650px){
+  .card{ width:92%; }
+  .details{ grid-template-columns:1fr; }
+  .gallery{ grid-template-columns:1fr; }
+}
+</style>
+</head>
+
+<body>
+
+<!-- SIDEBAR -->
+<nav class="sidebar" id="sidebar">
+  <h3>MENU</h3>
+  <a href="index.html">home</a>
+  <a href="other_asset.html">other asset</a>
+  <a href="file_archive.html">File archive</a>
+</nav>
+
+<!-- GLOBAL UI -->
+<div class="global-ui">
+  <div class="menu" onclick="toggleSidebar()">☰</div>
+  <img src="../asset/IAF_Logo.png" class="logo">
+</div>
+
+<!-- 🔥 CONTAINER CARD (BARU) -->
+<div id="cards"></div>
+
+<div class="copyright">
+  ©2025 IAF Digital Engineering - Furru project
+</div>
+
+<!-- MODAL -->
+<div class="modal" id="modal" onclick="closeModal()">
+  <img id="modal-img">
+</div>
+
+<script>
+/* === UI === */
+const sidebar = document.getElementById("sidebar");
+function toggleSidebar(){ sidebar.classList.toggle("active"); }
+function openModal(src){
+  document.getElementById("modal-img").src = src;
+  document.getElementById("modal").classList.add("active");
+}
+function closeModal(){
+  document.getElementById("modal").classList.remove("active");
+}
+
+/* === LOAD JSON === */
+const params = new URLSearchParams(location.search);
+const id = params.get("id") || "FP001";
+
+fetch("../data/furrupro.json")
+.then(r => r.json())
+.then(data => {
+  const f = data[id];
+  if(!f) return;
+
+  document.title = f.name;
+  const wrap = document.getElementById("cards");
+
+  f.variants.forEach(v => {
+    const card = document.createElement("div");
+    card.className = "card";
+
+    card.innerHTML = `
+      <div class="header">
+        <div class="photo">
+          <img src="${v.profile}" onclick="openModal(this.src)">
+        </div>
+        <div>
+          <div class="name">${v.title}</div>
+          <div class="id-line">
+            <span>SN: ${f.sn}</span> |
+            <span>REG-ID: ${f.reg}</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="details">
+        <div><div class="label">Sex</div>${f.sex}</div>
+        <div><div class="label">Deployment date</div>${f.deploy}</div>
+        <div><div class="label">Height (without ears)</div>${f.height_no_ears} cm</div>
+        <div><div class="label">Height (with ears)</div>${f.height_with_ears} cm</div>
+        <div><div class="label">Base Model</div>${f.model}</div>
+      </div>
+
+      <div class="description">${f.description}</div>
+
+      <div class="gallery">
+        <div class="section-title">Body Profile</div>
+        ${v.gallery.map(img => `
+          <div class="gallery-item">
+            <img src="${img}" onclick="openModal(this.src)">
+          </div>
+        `).join("")}
+      </div>
+    `;
+    wrap.appendChild(card);
+  });
+});
+</script>
+
+</body>
+</html>
