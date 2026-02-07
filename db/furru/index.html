@@ -241,14 +241,19 @@ fetch("../data/furrupro.json")
 
       <div class="description">${f.description}</div>
 
-      <div class="gallery">
-        <div class="section-title">Body Profile</div>
-        ${v.gallery.map(img => `
-          <div class="gallery-item">
-            <img src="${img}" onclick="openModal(this.src)">
-          </div>
-        `).join("")}
+<div class="gallery">
+  <div class="section-title">Body Profile</div>
+  ${v.gallery.map((img, idx) => {
+    // Caption sesuai nomor gambar
+    const captions = ["Front","Back","Left","Right","Top","Front","Back","Left","Right"];
+    return `
+      <div class="gallery-item">
+        <img src="${img}" onclick="openModal(this.src)">
+        <div class="caption">${captions[idx]}</div>
       </div>
+    `;
+  }).join("")}
+</div>
     `;
     wrap.appendChild(card);
   });
@@ -257,5 +262,6 @@ fetch("../data/furrupro.json")
 
 </body>
 </html>
+
 
 
