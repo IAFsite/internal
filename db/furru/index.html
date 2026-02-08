@@ -206,6 +206,18 @@ function closeModal(){
   document.getElementById("modal").classList.remove("active");
 }
 
+/* === FAVICON FUNCTION (BARU) === */
+function setFavicon(url){
+  let link = document.querySelector("link[rel~='icon']");
+  if(!link){
+    link = document.createElement("link");
+    link.rel = "icon";
+    document.head.appendChild(link);
+  }
+  link.type = "image/png";
+  link.href = url;
+}
+
 /* === LOAD JSON === */
 const params = new URLSearchParams(location.search);
 const id = params.get("id") || "FP001";
@@ -216,11 +228,17 @@ fetch("../data/furrupro.json")
   const f = data[id];
   if(!f) return;
 
+  /* === SET FAVICON DARI LEGACY (5.png) === */
+  const legacy = f.variants.find(v => v.profile === "5.png");
+  if(legacy){
+    setFavicon(legacy.asset_path + legacy.profile);
+  }
+
   document.title = f.name;
   const wrap = document.getElementById("cards");
 
   f.variants.forEach(v => {
-    const base = v.asset_path; // 🔥 base folder
+    const base = v.asset_path;
 
     const card = document.createElement("div");
     card.className = "card";
@@ -250,20 +268,19 @@ fetch("../data/furrupro.json")
 
       <div class="description">${f.description}</div>
 
-<div class="gallery">
-  <div class="section-title">Body Profile</div>
-  ${v.gallery.map((img, idx) => {
-    // Caption sesuai nomor gambar
-    const captions = ["Front","Back","Left","Right","Top","Front","Back","Left","Right"];
-    return `
-      <div class="gallery-item">
-        <img src="${base + img}" onclick="openModal(this.src)">
-        <div class="caption">${captions[idx]}</div>
+      <div class="gallery">
+        <div class="section-title">Body Profile</div>
+        ${v.gallery.map((img, idx) => {
+          const captions = ["Front","Back","Left","Right","Top","Front","Back","Left","Right"];
+          return `
+            <div class="gallery-item">
+              <img src="${base + img}" onclick="openModal(this.src)">
+              <div class="caption">${captions[idx]}</div>
+            </div>
+          `;
+        }).join("")}
       </div>
     `;
-  }).join("")}
-</div>
-   `;
 
     wrap.appendChild(card);
   });
