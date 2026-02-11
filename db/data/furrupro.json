@@ -1,4 +1,17 @@
 {
+  "FP000": {
+    "name": "█████ █████",
+    "sn": "FP000",
+    "reg": "FP00027062011M",
+    "sex": "Male",
+    "deploy": "27/06/2011",
+    "height_no_ears": 170,
+    "height_with_ears": ,
+    "model": "homosapiens",
+    "description": "█████ █████ adalah individu berusia 14 tahun dengan perilaku yang tidak dapat di tebak, █████ █████ juga memiliki kemampuan komputer yang cukup bagus "
+"variants": [
+{
+{
   "FP001": {
     "name": "Deu",
     "sn": "FP001",
