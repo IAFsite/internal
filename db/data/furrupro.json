@@ -1,22 +1,4 @@
 {
-  "FP000": {
-    "name": "█████ █████",
-    "sn": "FP000",
-    "reg": "FP00027062011M",
-    "sex": "Male",
-    "deploy": "27/06/2011",
-    "height_no_ears": 170,
-    "height_with_ears": ,
-    "model": "homosapiens",
-    "description": "█████ █████ adalah individu berusia 14 tahun dengan perilaku yang tidak dapat di tebak, █████ █████ juga memiliki kemampuan komputer yang cukup bagus "
- "variants": [
-  {
-    "title": "█████ █████",
-    "asset_path": "../Furru_asset/FP000/",
-    "profile": "0.png",
-    "gallery": ["1.png", "2.png", "3.png", "4.png"]
-},
-{
   "FP001": {
     "name": "Deu",
     "sn": "FP001",
