@@ -1,4 +1,22 @@
 {
+  "FP000": {
+    "name": "█████ █████",
+    "sn": "FP000",
+    "reg": "FP00027062011M",
+    "sex": "Male",
+    "deploy": "27/10/2025",
+    "height_no_ears": 170,
+    "model": "Homosapiens",
+    "description": "█████ █████ adalah individu berusia 14 tahun dengan perilaku yang tidak dapat di tebak, █████ █████ juga memiliki kemampuan komputer yang cukup bagus",
+    "variants": [
+      {
+        "title": " █████",
+        "asset_path": "../Furru_asset/FP000/",
+        "profile": "0.png",
+        "gallery": ["1.png", "2.png", "3.png", "4.png"]
+      }
+    ]
+  },
   "FP001": {
     "name": "Deu",
     "sn": "FP001",
@@ -10,18 +28,18 @@
     "model": "Deuzear",
     "description": "Deu adalah Furru pertama yang dibuat, sebagai Furru pertama dia memiliki persoanity yang paling mendekati █████ █████, Deu sebagai Furru paling senior memiliki role terpenting yayitu head of MOS, Deu juga memiliki hubungan spesial dengan Felo FP004 sbebagai teman dekat dan Fela FP005 sebagai partner, dulu Deu juga terlihat sedikit takut ketika hanya berdua dengan Alpha FP002 tetapi masalah ini telah terselesaikan",
     "variants": [
-  {
-    "title": "Deu",
-    "asset_path": "../Furru_asset/FP001/",
-    "profile": "0.png",
-    "gallery": ["1.png", "2.png", "3.png", "4.png"]
-  },
-  {
-    "title": "Deu (Legacy Design)",
-    "asset_path": "../Furru_asset/FP001/",
-    "profile": "5.png",
-    "gallery": ["6.png", "7.png", "8.png", "9.png"]
-  }
+      {
+        "title": "Deu",
+        "asset_path": "../Furru_asset/FP001/",
+        "profile": "0.png",
+        "gallery": ["1.png", "2.png", "3.png", "4.png"]
+      },
+      {
+        "title": "Deu (Legacy Design)",
+        "asset_path": "../Furru_asset/FP001/",
+        "profile": "5.png",
+        "gallery": ["6.png", "7.png", "8.png", "9.png"]
+      }
 ]
   },
 
