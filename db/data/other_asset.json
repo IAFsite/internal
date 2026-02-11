@@ -1,0 +1,23 @@
+{
+  "units": [
+    {
+      "id": "ITM001",
+      "name": "T-shirt (Legacy)",
+      "regId": "ITM00129102025",
+      "thumb": "other_asset/ITM001/0.png"
+    },
+    {
+      "id": "ITM002",
+      "name": "Collar (Legacy)",
+      "regId": "ITM0025092025",
+      "thumb": "other_asset/ITM001/0.png"
+    },
+    {
+      "id": "ITM002",
+      "name": "IAFBLATE (Legacy)",
+      "regId": "ITM00303122025",
+      "thumb": "other_asset/ITM002/0.png"
+    }
+    
+  ]
+}

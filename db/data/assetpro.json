@@ -1,0 +1,60 @@
+{
+  "FP000": {
+    "name": "█████ █████",
+    "sn": "FP000",
+    "reg": "FP00027062011M",
+    "sex": "Male",
+    "deploy": "27/10/2025",
+    "height_no_ears": 170,
+    "model": "Homosapiens",
+    "description": "█████ █████ adalah individu berusia 14 tahun dengan perilaku yang tidak dapat di tebak, █████ █████ juga memiliki kemampuan komputer yang cukup bagus",
+    "variants": [
+      {
+        "title": " █████",
+        "asset_path": "../Furru_asset/FP000/",
+        "profile": "0.png",
+        "gallery": ["1.png", "2.png", "3.png", "4.png"]
+      }
+    ]
+  },
+  "FP001": {
+    "name": "Deu",
+    "sn": "FP001",
+    "reg": "FP00111082025M",
+    "sex": "Male",
+    "deploy": "11/08/2025",
+    "height_no_ears": 193,
+    "height_with_ears": 203,
+    "model": "Deuzear",
+    "description": "Deu adalah Furru pertama yang dibuat, sebagai Furru pertama dia memiliki persoanity yang paling mendekati █████ █████, Deu sebagai Furru paling senior memiliki role terpenting yayitu head of MOS, Deu juga memiliki hubungan spesial dengan Felo FP004 sbebagai teman dekat dan Fela FP005 sebagai partner, dulu Deu juga terlihat sedikit takut ketika hanya berdua dengan Alpha FP002 tetapi masalah ini telah terselesaikan",
+    "variants": [
+      {
+        "title": "Deu",
+        "asset_path": "../Furru_asset/FP001/",
+        "profile": "0.png",
+        "gallery": ["1.png", "2.png", "3.png", "4.png"]
+      }
+]
+  },
+
+  "FP002": {
+    "name": "Alpha",
+    "sn": "FP002",
+    "reg": "FP00227102025M",
+    "sex": "Male",
+    "deploy": "27/10/2025",
+    "height_no_ears": 198,
+    "height_with_ears": 208,
+    "model": "Alphazear",
+    "description": "Alpha adalah Furru ke 2 dan merupakan bagian dari MSC, Alpha memiliki hubungan spesial Dengan Ava FP010, Apha memiliki bentuk fisik yg mirip denga Deu FP001 hanya lebih buff dan mengintimidasi, selain itu Alpha juga meiliki personality yang samtai dan kasual, tetapi Alpha meiliki gerak gerik yang aga aneh ketika berada di dekat Deu FP001",
+    "variants": [
+  {
+    "title": "Alpha",
+    "asset_path": "../Furru_asset/FP002/",
+    "profile": "0.png",
+    "gallery": ["1.png", "2.png", "3.png", "4.png"]
+  }
+]
+ 
+  }
+}
